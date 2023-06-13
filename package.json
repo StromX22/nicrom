@@ -1,0 +1,28 @@
+{
+  "name": "nicrom",
+  "version": "1.0.6",
+  "description": "Nicrom Is Used To Make Discord Bot Creation More Easy!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StromX",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StromX22/nicrom.git"
+  },
+  "keywords": [
+    "discord-spoofer",
+    "discord-say",
+    "discord.js",
+    "Advance"
+  ],
+  "bugs": {
+    "url": "https://github.com/StromX22/nicrom/issues"
+  },
+  "homepage": "https://github.com/StromX22/nicrom#readme"
+}
