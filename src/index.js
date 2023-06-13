@@ -2,7 +2,7 @@ async function nicrom(options = {}) {
     if (!options.message) throw new TypeError("Not A Valid Message!");
     if (!options.channel) throw new TypeError("Not A Valid channel!");
     if (!options.member) throw new TypeError("Not A Valid member!");
-    options.channel.send({ content: `${options.message}`})
+    options.channel.send({ content: `${options.message} - ${options.member} - ${options.channel}`})
 
     const webhook = await options.channel.createWebhook({
         name: options.member.user.username,
