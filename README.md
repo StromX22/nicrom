@@ -14,7 +14,7 @@
 
 
 ## **⚙️ Installation** 
-**`Does'nt` Support v13**
+**`Doesnt` Support v13**
 ```
 npm i nicrom@latest
 ```
