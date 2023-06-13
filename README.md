@@ -1,4 +1,4 @@
-# **NICROM**
+# **NICROM DEV BRANCH ( BETA )**
 
 <p align="center">
   <a href="https://www.npmjs.com/package/nicrom">
