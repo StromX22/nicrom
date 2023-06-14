@@ -31,7 +31,7 @@ npm i nicrom@latest
 ## **📚 Usage**
 ```js
 const { SlashCommandBuilder } = require('discord.js');
- const nicrom_spoofer = require('nicrom');
+ const nicrom = require('nicrom');
 
 module.exports = { 
     data: new SlashCommandBuilder() 
@@ -49,9 +49,7 @@ module.exports = {
 
     if (message.includes('@everyone') || message.includes('@here')) return await interaction.reply({ content: `You can't Bypass Prems .`, ephemeral: true });
     
-
-    await interaction.reply({ content: `Your message has been Sent:`, ephemeral: true})
-    nicrom_spoofer({ member: member, message: message, channel: channel }).catch(async err => {
+    nicrom({ member: member, message: message, channel: channel, interaction: interaction, intmsg: true}).catch(async err => {
         await interaction.editReply({ content: `There was an error Tromb: \`${err}\``, ephemeral: true });
     })
 
